@@ -5,14 +5,14 @@
 * Apache kafka (lihat instruksi pengaturan di bawah)
 
 ## Instruksi untuk menjalankan producer.py dan consumer_etl.py
-1. Buatlah tabel ```farhan_device_metadata``` dan tabel ```farhan_iot_sensor_readings``` di dalam database PostgreSQL dengan menjalankan perintah SQL yang terdapat pada file ddl.sql
+1. Buatlah tabel **farhan_device_metadata** dan tabel **farhan_iot_sensor_readings** di dalam database PostgreSQL dengan menjalankan perintah SQL yang terdapat pada file ddl.sql
 
-2. Buat virtual Environment **Untuk Linux/macOS:**
+2. Buat virtual Environment **untuk Linux/macOS:**
   ```
     python3 -m venv .venv
     source .venv/bin/activate
   ```
-  Catatan: Anda dapat menggunakan cara lain untuk membuat dan mengaktifkan virtual environment sesuai dengan sistem operasi atau preferensi Anda.
+  **Catatan: Anda dapat menggunakan cara lain untuk membuat dan mengaktifkan virtual environment sesuai dengan sistem operasi atau preferensi Anda.**
 
 3. Install dependencies:
    ```
