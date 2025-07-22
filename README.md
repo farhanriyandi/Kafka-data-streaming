@@ -7,12 +7,12 @@
 ## Instruksi untuk menjalankan producer.py dan consumer_etl.py
 1. Buatlah tabel ```farhan_device_metadata``` dan tabel ```farhan_iot_sensor_readings``` di dalam database PostgreSQL dengan menjalankan perintah SQL yang terdapat pada file ddl.sql
 
-2. Buat virtual Environment
+2. Buat virtual Environment **Untuk Linux/macOS:**
   ```
     python3 -m venv .venv
     source .venv/bin/activate
   ```
-  * catatan anda bisa menggunakan cara lain juga untuk membuat virtual environment
+  Catatan: Anda dapat menggunakan cara lain untuk membuat dan mengaktifkan virtual environment sesuai dengan sistem operasi atau preferensi Anda.
 
 3. Install dependencies:
    ```
