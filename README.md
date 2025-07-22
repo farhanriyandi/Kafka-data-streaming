@@ -1,5 +1,6 @@
 # Kafka-data-streaming
 1. Buatlah tabel ```farhan_device_metadata``` dan tabel ```farhan_iot_sensor_readings``` di dalam database PostgreSQL dengan menjalankan perintah SQL yang terdapat pada file ddl.sql
+
 2. Buat virtual Environment
   ```
     python3 -m venv .venv
@@ -37,7 +38,7 @@
 
    <img width="139" height="119" alt="image" src="https://github.com/user-attachments/assets/f492aef7-e650-4eca-a6d1-fca5521a5c21" />
 
-6. Lihat Database
+6. Lihat tabel farhan_iot_sensor_readings
 
    <img width="809" height="272" alt="image" src="https://github.com/user-attachments/assets/9233a9f2-0d2e-41eb-9aa8-571d429e1bcc" />
 
