@@ -1,8 +1,9 @@
 # Kafka-data-streaming
 ## Requirements
-* Python
+* Python 3
 * Postgresql
 
+## Instruksi untuk menjalankan producer.py dan consumer_etl.py
 1. Buatlah tabel ```farhan_device_metadata``` dan tabel ```farhan_iot_sensor_readings``` di dalam database PostgreSQL dengan menjalankan perintah SQL yang terdapat pada file ddl.sql
 
 2. Buat virtual Environment
@@ -10,6 +11,8 @@
     python3 -m venv .venv
     source .venv/bin/activate
   ```
+  * catatan anda bisa menggunakan cara lain juga untuk membuat virtual environment
+
 3. Install dependencies:
    ```
      pip install -r requirements.txt
