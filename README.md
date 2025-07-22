@@ -1,7 +1,8 @@
 # Kafka-data-streaming
 ## Requirements
-* Python 3
-* Postgresql
+* Python 3.x
+* PostgreSQL
+* Apache kafka (lihat instruksi pengaturan di bawah)
 
 ## Instruksi untuk menjalankan producer.py dan consumer_etl.py
 1. Buatlah tabel ```farhan_device_metadata``` dan tabel ```farhan_iot_sensor_readings``` di dalam database PostgreSQL dengan menjalankan perintah SQL yang terdapat pada file ddl.sql
