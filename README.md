@@ -1,4 +1,8 @@
 # Kafka-data-streaming
+## Requirements
+* Python
+* Postgresql
+
 1. Buatlah tabel ```farhan_device_metadata``` dan tabel ```farhan_iot_sensor_readings``` di dalam database PostgreSQL dengan menjalankan perintah SQL yang terdapat pada file ddl.sql
 
 2. Buat virtual Environment
